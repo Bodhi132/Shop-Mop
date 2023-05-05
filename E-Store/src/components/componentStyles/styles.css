@@ -1,0 +1,7 @@
+.zoom + .pmage:hover{
+    opacity: 1;
+}
+.zoom{
+    opacity: 0;
+}
+
