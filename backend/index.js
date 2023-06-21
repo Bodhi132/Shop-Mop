@@ -1,7 +1,7 @@
 const dotenv = require("dotenv").config()
 const express = require('express')
 const cors = require('cors');
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); 
 const User = require('./models/UserModel');
 const Cart = require('./models/CartItems')
 const bcrypt = require('bcryptjs');
@@ -18,7 +18,7 @@ const stripe = require('stripe')('sk_test_51MTeHYSFe9iNERqeQmzflPrsqoCAml9j7hfYy
 const salt = bcrypt.genSaltSync(10);
 const secret = 'asdfe45we45w345wegw345werjktjwertkj';
 
-app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
+app.use(cors({ credentials: true, origin: ['http://localhost:5173','https://shop-mop-2agc.onrender.com/'] }));
 app.use(express.json());
 app.use(cookieParser());
 // cors("*")
