@@ -15,8 +15,8 @@ import axios from "axios"
 import { UserContextProvider } from "./UserContext"
 import CartProvider from "./CartContext"
 
-axios.defaults.baseURL = 'http://127.0.0.1:4000';
-// axios.defaults.baseURL = 'https://shop-mop-back.onrender.com';
+// axios.defaults.baseURL = 'http://127.0.0.1:4000';
+axios.defaults.baseURL = 'https://shop-mop-back.onrender.com';
 // axios.defaults.withCredentials = true;
 
 function App() {
