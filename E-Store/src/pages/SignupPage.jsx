@@ -7,15 +7,7 @@ import { Navigate } from 'react-router-dom';
 
 const SignupPage = () => {
 
-    // const [user, setUser] = useState(
-    //     {
-    //         username: '',
-    //         email: '',
-    //         password: '',
-    //         photo: ''
-    //     }
 
-    // )
 
     const [username, setUsername] = useState('')
     const [email, setEmail] = useState('')
