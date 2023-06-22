@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   const current = new Date();
   return (
     <div className='w-[100%] bg-black text-white h-[10vh] flex justify-center items-center'>
@@ -10,4 +10,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
