@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 import FeaturedProducts from '../components/FeaturedProducts'
 import Intro from '../components/Intro'
 import NewsLetter from '../components/NewsLetter'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 
 const HomePage = () => {
