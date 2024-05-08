@@ -27,21 +27,11 @@ const Products = () => {
     
   }, [])
 
-  
-  // useEffect(() => {
-  //   // setClear(false)
-  //   window.location.reload();
-  // }, [clear])
-
   if(clear === true)
   {
     setClear(false)
     window.location.reload();
   }
-  
-  // console.log(sortingOrder);
-  // console.log(clickedCategory);
-  console.log(search);
 
 
   return (

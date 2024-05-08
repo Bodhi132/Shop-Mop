@@ -21,23 +21,11 @@ const Header = () => {
             navigate("/cart")
         }
     }
-    // const handleClickOutside = e => {
-    //     if (!btnRef2.current.contains(e.target)) {
-    //         setIsOpen(false)
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     document.addEventListener("click", handleClickOutside, true)
-
-    //     return () => document.body.removeEventListener('click', handleClickOutside, false)
-    // }, [])
-
 
     return (
         <>
             <nav className='flex align-center sm:justify-around sm:p-3 sm:mx-3 justify-between'>
-                <img src="./src/assets/Logo.png" className='h-[10rem] w-[10rem] mb-8' alt="" />
+                <img src="./src/assets/Logo-Main.png" className='h-[6rem] w-[8rem] mb-8 rounded-md' alt="" />
                 <div className='flex ml-10 mt-8 text-2xl font-light max-sm:hidden'>
                     <Link className='mx-4' to="/" >Home</Link>
                     <Link className='mx-4' to="/About">About</Link>

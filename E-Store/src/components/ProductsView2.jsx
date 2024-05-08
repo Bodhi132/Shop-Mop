@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
+import Loader from './Loader';
 
 
 const ProductsView2 = ({ products, sortingOrder, clickedCategory, priceRange }) => {
