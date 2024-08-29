@@ -31,9 +31,9 @@ const PrductsSidebar = ({setClickedCategory,setSearch,setPriceRange,priceRange,s
           <div className='flex flex-col text-slate-400'>
             {
               categories.slice(0, 7).map(category =>
-                <div key={category} className='mt-2'>
+                <div key={category.slug} className='mt-2'>
                   
-                  <input type='button' className='bg-white hover:cursor-pointer hover:text-slate-600 active:text-slate-700 focus:text-slate-700' onClick={handleChange} value={category} />
+                  <input type='button' className='bg-white hover:cursor-pointer hover:text-slate-600 active:text-slate-700 focus:text-slate-700' onClick={handleChange} value={category.slug} />
                 </div>
               )
             }
